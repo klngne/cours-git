@@ -1,0 +1,7 @@
+- Restaurer un fichier ajouter au commit (non push)
+git restore --staged ...files
+
+- Retourner à commit n-X sur la distante
+git reset --sort HEAD~1 	-> annuler add
+		  --mixed		    -> annuler commit + add
+		  --force    		-> annuler commit + add + modifications
